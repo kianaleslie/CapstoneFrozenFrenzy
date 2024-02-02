@@ -4,20 +4,22 @@ using UnityEngine;
 
 public class SnowballManager : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
+    public float speed;
+    float input;
 
-    // Update is called once per frame
+    private void Start()
+    {
+        speed = 5.0f;
+    }
     void Update()
     {
-        
+        input = Input.GetAxis("Horizontal");
+
+        transform.Translate(new Vector3(input, 0, 0) * speed * Time.deltaTime);
     }
 
     public void FixedUpdate()
     {
-        gameObject.transform.position = new Vector3(gameObject.transform.position.x, gameObject.transform.position.y, 7.0f);
+        //gameObject.transform.position = new Vector3(gameObject.transform.position.x, gameObject.transform.position.y, 7.0f);
     }
 }
