@@ -4,22 +4,22 @@ using UnityEngine;
 
 public class SnowballManager : MonoBehaviour
 {
-    public float speed;
-    float input;
+    //public float speed;
+    //float input;
 
     private void Start()
     {
-        speed = 5.0f;
+        //speed = 5.0f;
     }
     void Update()
     {
-        input = Input.GetAxis("Horizontal");
+        //input = Input.GetAxis("Horizontal");
 
-        transform.Translate(new Vector3(input, 0, 0) * speed * Time.deltaTime);
+        //transform.Translate(new Vector3(input, 0, 0) * speed * Time.deltaTime);
     }
 
     public void FixedUpdate()
     {
-        //gameObject.transform.position = new Vector3(gameObject.transform.position.x, gameObject.transform.position.y, 7.0f);
+        gameObject.transform.position = new Vector3(gameObject.transform.position.x, gameObject.transform.position.y, 7.0f);
     }
 }
