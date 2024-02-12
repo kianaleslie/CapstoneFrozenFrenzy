@@ -5,6 +5,7 @@ using UnityEngine;
 
 public class LeaderboardManager : MonoBehaviour
 {
+    // Placeholder Script for Prototype Leaderboard
     [SerializeField] private List<TMP_Text> leaderboardTexts;
 
     private List<LeaderboardEntry> leaderboard = new List<LeaderboardEntry>();
@@ -22,9 +23,9 @@ public class LeaderboardManager : MonoBehaviour
         leaderboard.Add(new LeaderboardEntry { Time = time, SnowballType = snowballType, Name = name });
         leaderboard.Sort((x, y) => x.Time.CompareTo(y.Time));
 
-        if (leaderboard.Count > 10)
+        if (leaderboard.Count > 8)
         {
-            leaderboard.RemoveAt(10);
+            leaderboard.RemoveAt(8);
         }
     }
 
@@ -32,7 +33,7 @@ public class LeaderboardManager : MonoBehaviour
     {
         for (int i = 0; i < leaderboard.Count; i++)
         {
-            leaderboardTexts[i].text = $"{leaderboard[i].Name}                {leaderboard[i].Time}                {leaderboard[i].SnowballType}";
+            leaderboardTexts[i].text = $"{leaderboard[i].Name}   {leaderboard[i].Time}   {leaderboard[i].SnowballType}";
         }
     }
 
