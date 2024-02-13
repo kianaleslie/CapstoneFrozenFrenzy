@@ -95,7 +95,7 @@ ScriptedImporter:
   rigSpriteImportData:
   - name: FInal_HUD_elements_0
     originalName: 
-    pivot: {x: 0.5, y: 0.5}
+    pivot: {x: 0, y: 0}
     alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -117,7 +117,7 @@ ScriptedImporter:
     spritePosition: {x: 0, y: 0}
   - name: FInal_HUD_elements_1
     originalName: 
-    pivot: {x: 0.5, y: 0.5}
+    pivot: {x: 0, y: 0}
     alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -139,7 +139,7 @@ ScriptedImporter:
     spritePosition: {x: 0, y: 0}
   - name: FInal_HUD_elements_2
     originalName: 
-    pivot: {x: 0.5, y: 0.5}
+    pivot: {x: 0, y: 0}
     alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -161,7 +161,7 @@ ScriptedImporter:
     spritePosition: {x: 0, y: 0}
   - name: FInal_HUD_elements_3
     originalName: 
-    pivot: {x: 0.5, y: 0.5}
+    pivot: {x: 0, y: 0}
     alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -183,7 +183,7 @@ ScriptedImporter:
     spritePosition: {x: 0, y: 0}
   - name: FInal_HUD_elements_4
     originalName: 
-    pivot: {x: 0.5, y: 0.5}
+    pivot: {x: 0, y: 0}
     alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -205,7 +205,7 @@ ScriptedImporter:
     spritePosition: {x: 0, y: 0}
   - name: FInal_HUD_elements_5
     originalName: 
-    pivot: {x: 0.5, y: 0.5}
+    pivot: {x: 0, y: 0}
     alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -227,7 +227,7 @@ ScriptedImporter:
     spritePosition: {x: 0, y: 0}
   - name: FInal_HUD_elements_6
     originalName: 
-    pivot: {x: 0.5, y: 0.5}
+    pivot: {x: 0, y: 0}
     alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -249,7 +249,7 @@ ScriptedImporter:
     spritePosition: {x: 0, y: 0}
   - name: FInal_HUD_elements_7
     originalName: 
-    pivot: {x: 0.5, y: 0.5}
+    pivot: {x: 0, y: 0}
     alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -271,7 +271,7 @@ ScriptedImporter:
     spritePosition: {x: 0, y: 0}
   - name: FInal_HUD_elements_8
     originalName: 
-    pivot: {x: 0.5, y: 0.5}
+    pivot: {x: 0, y: 0}
     alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -293,7 +293,7 @@ ScriptedImporter:
     spritePosition: {x: 0, y: 0}
   - name: FInal_HUD_elements_9
     originalName: 
-    pivot: {x: 0.5, y: 0.5}
+    pivot: {x: 0, y: 0}
     alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -315,7 +315,7 @@ ScriptedImporter:
     spritePosition: {x: 0, y: 0}
   - name: FInal_HUD_elements_10
     originalName: 
-    pivot: {x: 0.5, y: 0.5}
+    pivot: {x: 0, y: 0}
     alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -337,7 +337,7 @@ ScriptedImporter:
     spritePosition: {x: 0, y: 0}
   - name: FInal_HUD_elements_11
     originalName: 
-    pivot: {x: 0.5, y: 0.5}
+    pivot: {x: 0, y: 0}
     alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -359,7 +359,7 @@ ScriptedImporter:
     spritePosition: {x: 0, y: 0}
   - name: FInal_HUD_elements_12
     originalName: 
-    pivot: {x: 0.5, y: 0.5}
+    pivot: {x: 0, y: 0}
     alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -381,7 +381,7 @@ ScriptedImporter:
     spritePosition: {x: 0, y: 0}
   - name: FInal_HUD_elements_13
     originalName: 
-    pivot: {x: 0.5, y: 0.5}
+    pivot: {x: 0, y: 0}
     alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -403,7 +403,7 @@ ScriptedImporter:
     spritePosition: {x: 0, y: 0}
   - name: FInal_HUD_elements_14
     originalName: 
-    pivot: {x: 0.5, y: 0.5}
+    pivot: {x: 0, y: 0}
     alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -425,7 +425,7 @@ ScriptedImporter:
     spritePosition: {x: 0, y: 0}
   - name: FInal_HUD_elements_15
     originalName: 
-    pivot: {x: 0.5, y: 0.5}
+    pivot: {x: 0, y: 0}
     alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -447,7 +447,7 @@ ScriptedImporter:
     spritePosition: {x: 0, y: 0}
   - name: FInal_HUD_elements_16
     originalName: 
-    pivot: {x: 0.5, y: 0.5}
+    pivot: {x: 0, y: 0}
     alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -469,7 +469,7 @@ ScriptedImporter:
     spritePosition: {x: 0, y: 0}
   - name: FInal_HUD_elements_17
     originalName: 
-    pivot: {x: 0.5, y: 0.5}
+    pivot: {x: 0, y: 0}
     alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -491,7 +491,7 @@ ScriptedImporter:
     spritePosition: {x: 0, y: 0}
   - name: FInal_HUD_elements_18
     originalName: 
-    pivot: {x: 0.5, y: 0.5}
+    pivot: {x: 0, y: 0}
     alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -513,7 +513,7 @@ ScriptedImporter:
     spritePosition: {x: 0, y: 0}
   - name: FInal_HUD_elements_19
     originalName: 
-    pivot: {x: 0.5, y: 0.5}
+    pivot: {x: 0, y: 0}
     alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -535,7 +535,7 @@ ScriptedImporter:
     spritePosition: {x: 0, y: 0}
   - name: FInal_HUD_elements_20
     originalName: 
-    pivot: {x: 0.5, y: 0.5}
+    pivot: {x: 0, y: 0}
     alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -557,7 +557,7 @@ ScriptedImporter:
     spritePosition: {x: 0, y: 0}
   - name: FInal_HUD_elements_21
     originalName: 
-    pivot: {x: 0.5, y: 0.5}
+    pivot: {x: 0, y: 0}
     alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -579,13 +579,13 @@ ScriptedImporter:
     spritePosition: {x: 0, y: 0}
   - name: FInal_HUD_elements_22
     originalName: 
-    pivot: {x: 0.5, y: 0.5}
+    pivot: {x: 0, y: 0}
     alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 1736
-      y: 148
+      x: 932
+      y: 4
       width: 312
       height: 555
     spriteID: 9ef6d81ee843e5e4583d8b0d28ae8cda
@@ -597,11 +597,11 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     parentGroupIndex: -1
-    uvTransform: {x: 1736, y: 148}
+    uvTransform: {x: 932, y: 4}
     spritePosition: {x: 0, y: 0}
   - name: FInal_HUD_elements_23
     originalName: 
-    pivot: {x: 0.5, y: 0.5}
+    pivot: {x: 0, y: 0}
     alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -623,7 +623,7 @@ ScriptedImporter:
     spritePosition: {x: 0, y: 0}
   - name: FInal_HUD_elements_24
     originalName: 
-    pivot: {x: 0.5, y: 0.5}
+    pivot: {x: 0, y: 0}
     alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -645,7 +645,7 @@ ScriptedImporter:
     spritePosition: {x: 0, y: 0}
   - name: FInal_HUD_elements_25
     originalName: 
-    pivot: {x: 0.5, y: 0.5}
+    pivot: {x: 0, y: 0}
     alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -667,7 +667,7 @@ ScriptedImporter:
     spritePosition: {x: 0, y: 0}
   - name: FInal_HUD_elements_26
     originalName: 
-    pivot: {x: 0.5, y: 0.5}
+    pivot: {x: 0, y: 0}
     alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -689,7 +689,7 @@ ScriptedImporter:
     spritePosition: {x: 0, y: 0}
   - name: FInal_HUD_elements_27
     originalName: 
-    pivot: {x: 0.5, y: 0.5}
+    pivot: {x: 0, y: 0}
     alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -711,7 +711,7 @@ ScriptedImporter:
     spritePosition: {x: 0, y: 0}
   - name: FInal_HUD_elements_28
     originalName: 
-    pivot: {x: 0.5, y: 0.5}
+    pivot: {x: 0, y: 0}
     alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -733,7 +733,7 @@ ScriptedImporter:
     spritePosition: {x: 0, y: 0}
   - name: FInal_HUD_elements_29
     originalName: 
-    pivot: {x: 0.5, y: 0.5}
+    pivot: {x: 0, y: 0}
     alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
