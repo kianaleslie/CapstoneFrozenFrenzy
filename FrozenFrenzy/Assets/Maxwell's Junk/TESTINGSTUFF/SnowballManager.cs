@@ -11,9 +11,11 @@ public class SnowballManager : MonoBehaviour
     public float forwardMovementspeed, sideMovementSpeed;
 
     public bool playingGame;
+
     public bool canAccel;
     public bool canBoost;
     public bool canSlow;
+    public bool canStop;
 
     // Start is called before the first frame update
     void Start()
@@ -25,6 +27,7 @@ public class SnowballManager : MonoBehaviour
         canAccel = true;
         canBoost = true;
         canSlow = true;
+        canStop = true;
     }
 
     // Update is called once per frame
