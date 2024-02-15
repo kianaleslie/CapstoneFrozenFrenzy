@@ -81,8 +81,59 @@ public class SnowballManager : MonoBehaviour
         canAccel = true;
     }
 
-    // ON SCREEN BUTTONS
-    #region
+    public IEnumerator BoostSnowball()
+    {
+        forwardMovementspeed = 1.0f;
+        yield return new WaitForSeconds(1.0f);
+        if (forwardMovementspeed > 0.5f)
+        {
+            forwardMovementspeed = 0.5f;
+        }
+        canBoost = true;
+    }
+
+    public IEnumerator SlowSnowball()
+    {
+        forwardMovementspeed = 0.1f;
+        yield return new WaitForSeconds(0.5f);
+        canSlow = true;
+    }
+
+    public IEnumerator StopSnowball()
+    {
+        forwardMovementspeed = 0.0f;
+        yield return new WaitForSeconds(0.5f);
+        canStop = true;
+    }
+
+    public void OnTriggerEnter(Collider other)
+    {
+        if (other.GetComponentInParent<Rigidbody>().tag == "SpeedBoost")
+        {
+            if (canBoost == true)
+            {
+                StartCoroutine(BoostSnowball());
+            }
+        }
+
+        if (other.GetComponentInParent<Rigidbody>().tag == "SlowObstacle")
+        {
+            if (canSlow == true)
+            {
+                StartCoroutine(SlowSnowball());
+            }
+        }
+
+        if (other.GetComponentInParent<Rigidbody>().tag == "StopObstacle")
+        {
+            if (canStop == true)
+            {
+                StartCoroutine(StopSnowball());
+            }
+        }
+    }
+        // ON SCREEN BUTTONS
+        #region
     public void ResetScene() // ResetButton
     {
         SceneManager.LoadScene(0);
