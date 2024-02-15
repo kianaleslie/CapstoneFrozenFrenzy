@@ -26,6 +26,14 @@ public class FinishLine : MonoBehaviour
             RaceManager temp2 = FindObjectOfType<RaceManager>();
             temp2.playingGame = false;
             temp2.countdownText.text = "GOAL!";
+            StartCoroutine(ReturnToMainMenu());
         }
+    }
+
+
+    public IEnumerator ReturnToMainMenu() // Called in Update
+    {
+        yield return new WaitForSeconds(5.0f);
+        SceneManager.LoadScene(0);
     }
 }
