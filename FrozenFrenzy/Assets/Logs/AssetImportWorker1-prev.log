@@ -15,7 +15,7 @@ C:/Users/pmiln/Capstone/CapstoneFrozenFrenzy/FrozenFrenzy/Assets
 -logFile
 Logs/AssetImportWorker1.log
 -srvPort
-50064
+50634
 Successfully changed project path to: C:/Users/pmiln/Capstone/CapstoneFrozenFrenzy/FrozenFrenzy/Assets
 C:/Users/pmiln/Capstone/CapstoneFrozenFrenzy/FrozenFrenzy/Assets
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -47,11 +47,11 @@ C:/Users/pmiln/Capstone/CapstoneFrozenFrenzy/FrozenFrenzy/Assets
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [16148] Host "[IP] 172.16.42.196 [Port] 0 [Flags] 2 [Guid] 4240057868 [EditorId] 4240057868 [Version] 1048832 [Id] WindowsEditor(7,OptimusPC) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [17156] Host "[IP] 10.0.0.90 [Port] 0 [Flags] 2 [Guid] 3437148393 [EditorId] 3437148393 [Version] 1048832 [Id] WindowsEditor(7,OptimusPC) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [16148] Host "[IP] 172.16.42.196 [Port] 0 [Flags] 2 [Guid] 4240057868 [EditorId] 4240057868 [Version] 1048832 [Id] WindowsEditor(7,OptimusPC) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [17156] Host "[IP] 10.0.0.90 [Port] 0 [Flags] 2 [Guid] 3437148393 [EditorId] 3437148393 [Version] 1048832 [Id] WindowsEditor(7,OptimusPC) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
-Refreshing native plugins compatible for Editor in 84.87 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 52.31 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.3.15f1 (e8e88683f834)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.15f1/Editor/Data/Resources/UnitySubsystems
@@ -67,92 +67,92 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.15f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.15f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.15f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56000
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56244
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.15f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.15f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.004309 seconds.
+Registered in 0.003374 seconds.
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
-Refreshing native plugins compatible for Editor in 77.79 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 57.71 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.550 seconds
+- Completed reload, in  0.445 seconds
 Domain Reload Profiling:
-	ReloadAssembly (551ms)
-		BeginReloadAssembly (63ms)
+	ReloadAssembly (445ms)
+		BeginReloadAssembly (48ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (403ms)
-			LoadAssemblies (62ms)
+			CreateAndSetChildDomain (0ms)
+		EndReloadAssembly (323ms)
+			LoadAssemblies (47ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (95ms)
+			SetupTypeCache (71ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (21ms)
-			SetupLoadedEditorAssemblies (241ms)
+			RebuildScriptCaches (20ms)
+			SetupLoadedEditorAssemblies (197ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (47ms)
+				InitializePlatformSupportModulesInManaged (40ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (78ms)
+				RefreshPlugins (58ms)
 				BeforeProcessingInitializeOnLoad (1ms)
-				ProcessInitializeOnLoadAttributes (75ms)
-				ProcessInitializeOnLoadMethodAttributes (39ms)
+				ProcessInitializeOnLoadAttributes (66ms)
+				ProcessInitializeOnLoadMethodAttributes (32ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.007390 seconds.
+Registered in 0.003644 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image C:\Users\pmiln\Capstone\CapstoneFrozenFrenzy\FrozenFrenzy\Assets\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image C:\Users\pmiln\Capstone\CapstoneFrozenFrenzy\FrozenFrenzy\Assets\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
-Refreshing native plugins compatible for Editor in 65.86 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 0.40 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.059 seconds
+- Completed reload, in  0.865 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1060ms)
-		BeginReloadAssembly (224ms)
+	ReloadAssembly (866ms)
+		BeginReloadAssembly (194ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (10ms)
+			DisableScriptedObjects (4ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (133ms)
-		EndReloadAssembly (728ms)
-			LoadAssemblies (70ms)
+			CreateAndSetChildDomain (129ms)
+		EndReloadAssembly (597ms)
+			LoadAssemblies (52ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (199ms)
+			SetupTypeCache (157ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (48ms)
-			SetupLoadedEditorAssemblies (373ms)
+			RebuildScriptCaches (42ms)
+			SetupLoadedEditorAssemblies (300ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (10ms)
+				InitializePlatformSupportModulesInManaged (9ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (66ms)
-				BeforeProcessingInitializeOnLoad (74ms)
-				ProcessInitializeOnLoadAttributes (183ms)
-				ProcessInitializeOnLoadMethodAttributes (35ms)
-				AfterProcessingInitializeOnLoad (4ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (54ms)
+				ProcessInitializeOnLoadAttributes (207ms)
+				ProcessInitializeOnLoadMethodAttributes (23ms)
+				AfterProcessingInitializeOnLoad (5ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (5ms)
+			AwakeInstancesAfterBackupRestoration (8ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.07 seconds
-Refreshing native plugins compatible for Editor in 0.52 ms, found 4 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
+Refreshing native plugins compatible for Editor in 0.48 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 4046 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 38 unused Assets / (56.6 KB). Loaded Objects now: 4506.
-Memory consumption went from 151.1 MB to 151.0 MB.
-Total: 3.272300 ms (FindLiveObjects: 0.234400 ms CreateObjectMapping: 0.129900 ms MarkObjects: 2.806000 ms  DeleteObjects: 0.100700 ms)
+Unloading 3231 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 25 unused Assets / (174.2 KB). Loaded Objects now: 3692.
+Memory consumption went from 111.4 MB to 111.2 MB.
+Total: 3.472300 ms (FindLiveObjects: 0.205400 ms CreateObjectMapping: 0.121700 ms MarkObjects: 3.009700 ms  DeleteObjects: 0.134400 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -165,91 +165,3 @@ AssetImportParameters requested are different than current active one (requested
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 708486.898975 seconds.
-  path: Assets/Sprites/Impact Moose/POW!17.png
-  artifactKey: Guid(68ca5dff22d436944ba7e05f9d6da46d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Impact Moose/POW!17.png using Guid(68ca5dff22d436944ba7e05f9d6da46d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ff6541440193c7dabf6af9fe5cc18f92') in 0.062739 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/Sprites/Impact Moose/POW!14.png
-  artifactKey: Guid(0931210fef893714fbd474d913f61364) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Impact Moose/POW!14.png using Guid(0931210fef893714fbd474d913f61364) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6e4d0b3153c3bee97a6e53d873361cf0') in 0.014037 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000032 seconds.
-  path: Assets/Sprites/Impact Moose/POW!01.png
-  artifactKey: Guid(d3524ded7c70d104a9c08c851152c0ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Impact Moose/POW!01.png using Guid(d3524ded7c70d104a9c08c851152c0ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5b5da59b7b001c312e27cb545389294f') in 0.011964 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000028 seconds.
-  path: Assets/Sprites/Impact Moose/POW!05.png
-  artifactKey: Guid(bd861ffeaa5ffc94b9162337f554ce93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Impact Moose/POW!05.png using Guid(bd861ffeaa5ffc94b9162337f554ce93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '537a7d33a88c1a0f59bd58c1df6bec85') in 0.016311 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000028 seconds.
-  path: Assets/Sprites/Impact Moose/POW!26.png
-  artifactKey: Guid(65f43d47636d3a04fbfef7be508a6715) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Impact Moose/POW!26.png using Guid(65f43d47636d3a04fbfef7be508a6715) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b0586e2ba17db2c34b03e9ec0e25a88b') in 0.017166 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000036 seconds.
-  path: Assets/Sprites/Impact Moose/POW!23.png
-  artifactKey: Guid(6d5b3f79ab31ab24a8b6e6ad1c6f9cdc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Impact Moose/POW!23.png using Guid(6d5b3f79ab31ab24a8b6e6ad1c6f9cdc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b83d9403e9f0bf2cdb4ef13cb888e709') in 0.014108 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000044 seconds.
-  path: Assets/Sprites/Impact Moose/POW!13.png
-  artifactKey: Guid(1fe4759f35614ef419d910604305953e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Impact Moose/POW!13.png using Guid(1fe4759f35614ef419d910604305953e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '94d4fefe518999fa817c3facaeaa6eb1') in 0.015085 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000044 seconds.
-  path: Assets/Sprites/Impact Moose/POW!20.png
-  artifactKey: Guid(833e8f707e736ea4289a4626546db482) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Impact Moose/POW!20.png using Guid(833e8f707e736ea4289a4626546db482) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '364c7e1c9db703702bc8ea9946e620b8') in 0.019567 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000031 seconds.
-  path: Assets/Sprites/Impact Moose/POW!03.png
-  artifactKey: Guid(5da66fc1554039f439175f274e6c50fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Impact Moose/POW!03.png using Guid(5da66fc1554039f439175f274e6c50fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0f23477835d2b0d517762f587695efdd') in 0.013834 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 28.468301 seconds.
-  path: Assets/Sprites/Impact Moose/POW!03.png
-  artifactKey: Guid(5da66fc1554039f439175f274e6c50fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Impact Moose/POW!03.png using Guid(5da66fc1554039f439175f274e6c50fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'beb7e59de26ac6178b45698883930474') in 0.145121 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000037 seconds.
-  path: Assets/Sprites/Impact Moose/POW!18.png
-  artifactKey: Guid(ebfce39043dcccd4286b32eab80da337) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Impact Moose/POW!18.png using Guid(ebfce39043dcccd4286b32eab80da337) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0df1f1f177c7bcb3350b49331a668f8a') in 0.092549 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000052 seconds.
-  path: Assets/Sprites/Impact Moose/POW!21.png
-  artifactKey: Guid(1785b3145ae9c2b42a3e07be3d939fe8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Impact Moose/POW!21.png using Guid(1785b3145ae9c2b42a3e07be3d939fe8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '93aed9d4d17de3c4791bed3baf8a4a08') in 0.094082 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/Sprites/Impact Moose/POW!11.png
-  artifactKey: Guid(9f2fa9c27f1fb3b41a4207c4851373ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Impact Moose/POW!11.png using Guid(9f2fa9c27f1fb3b41a4207c4851373ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4ab4fa30f5e7d832103691e5f1e1768b') in 0.048269 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/Sprites/Impact Moose/POW!25.png
-  artifactKey: Guid(fd9b0383dee55574c8d80d34cea4c265) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Impact Moose/POW!25.png using Guid(fd9b0383dee55574c8d80d34cea4c265) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '07db97fd0027855a5af14ba37cc149ec') in 0.041805 seconds 
-Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
-AssetImportWorker is now disconnected from the server
-Process exiting
-Exiting without the bug reporter. Application will terminate with return code 0
