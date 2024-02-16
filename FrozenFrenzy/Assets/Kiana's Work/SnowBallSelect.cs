@@ -7,6 +7,7 @@ public class SnowBallSelect : MonoBehaviour
 {
     public List<Sprite> snowballList;
     public Image displaySnowball;
+    public LevelMenuManager levelMenuManager;
 
     int index = 0;
 

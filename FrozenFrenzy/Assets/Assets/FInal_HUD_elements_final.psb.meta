@@ -100,10 +100,10 @@ ScriptedImporter:
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 100
-      y: 1360
-      width: 127
-      height: 49
+      x: 65
+      y: 1311
+      width: 465
+      height: 110
     spriteID: 52d4db2173c07c44caa8480faaaf70d7
     spriteBone: []
     spriteOutline: []
@@ -113,7 +113,7 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     parentGroupIndex: -1
-    uvTransform: {x: 100, y: 1360}
+    uvTransform: {x: 65, y: 1311}
     spritePosition: {x: 0, y: 0}
   - name: FInal_HUD_elements_final_1
     originalName: 
@@ -166,10 +166,10 @@ ScriptedImporter:
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 750
-      y: 1368
-      width: 128
-      height: 49
+      x: 712
+      y: 1318
+      width: 465
+      height: 112
     spriteID: 98658726eb52f0d40a1e924d48395ced
     spriteBone: []
     spriteOutline: []
@@ -179,7 +179,7 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     parentGroupIndex: -1
-    uvTransform: {x: 750, y: 1368}
+    uvTransform: {x: 712, y: 1318}
     spritePosition: {x: 0, y: 0}
   - name: FInal_HUD_elements_final_4
     originalName: 
@@ -1354,8 +1354,8 @@ ScriptedImporter:
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 442
-      y: 4
+      x: 0
+      y: 1616
       width: 143
       height: 432
     spriteID: 85ba26e9da0d51c47885ba08372b7945
@@ -1367,7 +1367,7 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     parentGroupIndex: -1
-    uvTransform: {x: 442, y: 4}
+    uvTransform: {x: 0, y: 1616}
     spritePosition: {x: 0, y: 0}
   - name: FInal_HUD_elements_final_58
     originalName: 
@@ -1830,6 +1830,28 @@ ScriptedImporter:
     tessellationDetail: 0
     parentGroupIndex: -1
     uvTransform: {x: 1634, y: 208}
+    spritePosition: {x: 0, y: 0}
+  - name: FInal_HUD_elements_final_79
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 7, y: 0, z: 0, w: 4}
+    rect:
+      serializedVersion: 2
+      x: 436
+      y: 4
+      width: 149
+      height: 434
+    spriteID: 7adafc8ec4da0a94996e5f7308efdd35
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 436, y: 4}
     spritePosition: {x: 0, y: 0}
   characterData:
     bones: []

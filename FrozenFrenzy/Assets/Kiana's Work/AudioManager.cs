@@ -26,7 +26,7 @@ public class AudioManager : MonoBehaviour
         }
         else
         {
-            audioSource.volume = 1f;
+            audioSource.volume = 0.1f;
             mutedImage?.SetActive(false);
         }
     }
