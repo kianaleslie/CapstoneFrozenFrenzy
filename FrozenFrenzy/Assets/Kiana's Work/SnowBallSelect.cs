@@ -5,7 +5,7 @@ using UnityEngine.UI;
 
 public class SnowBallSelect : MonoBehaviour
 {
-    public List<Sprite> snowballList;
+    public List<Sprite/*Image*/> snowballList;
     public Image displaySnowball;
     public LevelMenuManager levelMenuManager;
 
