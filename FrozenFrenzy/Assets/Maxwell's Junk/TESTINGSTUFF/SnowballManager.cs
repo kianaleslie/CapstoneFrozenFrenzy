@@ -17,6 +17,10 @@ public class SnowballManager : MonoBehaviour
     public bool canSlow;
     public bool canStop;
 
+    public int powerBallCount;
+    public bool canPowerBoost = false;
+    public bool powerBoosting = false;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -28,6 +32,10 @@ public class SnowballManager : MonoBehaviour
         canBoost = true;
         canSlow = true;
         canStop = true;
+
+        powerBallCount = 0;
+        canPowerBoost = false;
+        powerBoosting = false;
     }
 
     // Update is called once per frame
@@ -42,6 +50,15 @@ public class SnowballManager : MonoBehaviour
                     canAccel = false;
                     StartCoroutine(Accelerate());
                 }
+            }
+
+            if (powerBallCount >= 10)
+            {
+                canPowerBoost = true;
+            }
+            else
+            {
+                canPowerBoost = false;
             }
         }
     }
@@ -60,17 +77,17 @@ public class SnowballManager : MonoBehaviour
 
         if (leftPressed == true)
         {
-            Debug.Log("LEFT");
+            //Debug.Log("LEFT");
             gameObject.transform.position = new Vector3(gameObject.transform.position.x - 1.0f * sideMovementSpeed, gameObject.transform.position.y, gameObject.transform.position.z);
         }
         else if (rightPressed == true)
         {
-            Debug.Log("RIGHT");
+            //Debug.Log("RIGHT");
             gameObject.transform.position = new Vector3(gameObject.transform.position.x + 1.0f * sideMovementSpeed, gameObject.transform.position.y, gameObject.transform.position.z);
         }
         else
         {
-            Debug.Log("NONE");
+            //Debug.Log("NONE");
         }
     }
 
@@ -131,13 +148,22 @@ public class SnowballManager : MonoBehaviour
                 StartCoroutine(StopSnowball());
             }
         }
+
+        if (other.GetComponentInParent<Rigidbody>().tag == "PowerBall")
+        {
+            Debug.Log("BALLS");
+            powerBallCount += 1;
+            Destroy(other.gameObject);
+        }
     }
-        // ON SCREEN BUTTONS
-        #region
+
+    // ON SCREEN BUTTONS
+    #region
     public void ResetScene() // ResetButton
     {
         SceneManager.LoadScene(0);
     }
+
     public void MoveLeftPressed() // Left Button
     {
         leftPressed = true;
@@ -148,12 +174,8 @@ public class SnowballManager : MonoBehaviour
     }
     public void LeftExited() // Left Button
     {
+        Debug.Log("Left Exited");
         leftPressed = false;
-    }
-
-    public void RightExited() // Right Button
-    {
-        rightPressed = false;
     }
     public void MoveRightPressed() // Right Button
     {
@@ -162,6 +184,18 @@ public class SnowballManager : MonoBehaviour
     public void MoveRightReleased() // Right Button
     {
         rightPressed = false;
+    }
+    public void RightExited() // Right Button
+    {
+        Debug.Log("Right Exited");
+        rightPressed = false;
+    }
+
+    public void PowerBoostButtonPressed()
+    {
+        powerBallCount = 0;
+        canPowerBoost = false;
+        powerBoosting = true;
     }
     #endregion
 }
