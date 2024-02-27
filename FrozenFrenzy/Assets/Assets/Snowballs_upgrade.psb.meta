@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: d98290726a8e80f47998357bb54b587f
+guid: 80c530566de0bb9418276db8f800e752
 ScriptedImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -93,7 +93,73 @@ ScriptedImporter:
     spritePosition: {x: 0, y: 0}
   mosaicSpriteImportData: []
   rigSpriteImportData:
-  - name: Snowballs_0
+  - name: Snowballs_upgrade_0
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 87
+      y: 242
+      width: 47
+      height: 61
+    spriteID: 74dcc167829fb5d4d97997b886087d99
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 87, y: 242}
+    spritePosition: {x: 0, y: 0}
+  - name: Snowballs_upgrade_1
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 209
+      y: 238
+      width: 91
+      height: 42
+    spriteID: 6c6751a1ae3b97a4ca6dbdcdb6ec38c2
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 209, y: 238}
+    spritePosition: {x: 0, y: 0}
+  - name: Snowballs_upgrade_2
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 350
+      y: 241
+      width: 92
+      height: 78
+    spriteID: 90c88741b08ea9049b313c2aecf81cdf
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 350, y: 241}
+    spritePosition: {x: 0, y: 0}
+  - name: Snowballs_upgrade_3
     originalName: 
     pivot: {x: 0.5, y: 0.5}
     alignment: 0
@@ -101,10 +167,10 @@ ScriptedImporter:
     rect:
       serializedVersion: 2
       x: 4
-      y: 154
-      width: 92
-      height: 135
-    spriteID: e400c60aa28da5c4ab310fee55567506
+      y: 137
+      width: 84
+      height: 56
+    spriteID: fd028ddc7cf897b499e3051150b86748
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -113,20 +179,20 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     parentGroupIndex: -1
-    uvTransform: {x: 4, y: 154}
+    uvTransform: {x: 4, y: 137}
     spritePosition: {x: 0, y: 0}
-  - name: Snowballs_1
+  - name: Snowballs_upgrade_4
     originalName: 
     pivot: {x: 0.5, y: 0.5}
     alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 88
-      y: 155
-      width: 92
-      height: 135
-    spriteID: 31e85bd07f59a744eb3c55696ff51ede
+      x: 140
+      y: 138
+      width: 79
+      height: 48
+    spriteID: ba146631bb30f1d4d88ac64dc2ad9b03
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -135,20 +201,20 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     parentGroupIndex: -1
-    uvTransform: {x: 88, y: 155}
+    uvTransform: {x: 140, y: 138}
     spritePosition: {x: 0, y: 0}
-  - name: Snowballs_2
+  - name: Snowballs_upgrade_5
     originalName: 
     pivot: {x: 0.5, y: 0.5}
     alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 168
-      y: 156
-      width: 92
-      height: 135
-    spriteID: 35521648cfa97bb4482790a9f1d8953b
+      x: 275
+      y: 139
+      width: 85
+      height: 59
+    spriteID: a40cae296fd4ae64abc7923a64680b1d
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -157,20 +223,20 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     parentGroupIndex: -1
-    uvTransform: {x: 168, y: 156}
+    uvTransform: {x: 275, y: 139}
     spritePosition: {x: 0, y: 0}
-  - name: Snowballs_3
+  - name: Snowballs_upgrade_6
     originalName: 
     pivot: {x: 0.5, y: 0.5}
     alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 265
-      y: 157
+      x: 415
+      y: 133
       width: 92
-      height: 135
-    spriteID: 08efbe22a5140f542b839de5fb2aa769
+      height: 82
+    spriteID: 775c48236894c3d40b10e03ab11fce92
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -179,20 +245,20 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     parentGroupIndex: -1
-    uvTransform: {x: 265, y: 157}
+    uvTransform: {x: 415, y: 133}
     spritePosition: {x: 0, y: 0}
-  - name: Snowballs_4
+  - name: Snowballs_upgrade_7
     originalName: 
     pivot: {x: 0.5, y: 0.5}
     alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 53
+      x: 214
       y: 4
-      width: 92
-      height: 135
-    spriteID: 509bfe2718f4ffd4d97b90b3cad47cf5
+      width: 75
+      height: 75
+    spriteID: 6001a4470a4a22f4dbd5bb9eb740df0e
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -201,51 +267,7 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     parentGroupIndex: -1
-    uvTransform: {x: 53, y: 4}
-    spritePosition: {x: 0, y: 0}
-  - name: Snowballs_5
-    originalName: 
-    pivot: {x: 0.5, y: 0.5}
-    alignment: 0
-    border: {x: 0, y: 0, z: 0, w: 0}
-    rect:
-      serializedVersion: 2
-      x: 136
-      y: 5
-      width: 92
-      height: 135
-    spriteID: 4761413acb706fc40b75833c04393875
-    spriteBone: []
-    spriteOutline: []
-    vertices: []
-    spritePhysicsOutline: []
-    indices: 
-    edges: []
-    tessellationDetail: 0
-    parentGroupIndex: -1
-    uvTransform: {x: 136, y: 5}
-    spritePosition: {x: 0, y: 0}
-  - name: Snowballs_6
-    originalName: 
-    pivot: {x: 0.5, y: 0.5}
-    alignment: 0
-    border: {x: 0, y: 0, z: 0, w: 0}
-    rect:
-      serializedVersion: 2
-      x: 238
-      y: 5
-      width: 92
-      height: 135
-    spriteID: b8b7e4d388face14f937b8387c390242
-    spriteBone: []
-    spriteOutline: []
-    vertices: []
-    spritePhysicsOutline: []
-    indices: 
-    edges: []
-    tessellationDetail: 0
-    parentGroupIndex: -1
-    uvTransform: {x: 238, y: 5}
+    uvTransform: {x: 214, y: 4}
     spritePosition: {x: 0, y: 0}
   characterData:
     bones: []
@@ -279,11 +301,11 @@ ScriptedImporter:
   resliceFromLayer: 0
   mosaicPSDLayers: []
   rigPSDLayers:
-  - name: Snowballs
-    spriteName: Snowballs
+  - name: Snowballs (upgrade)
+    spriteName: Snowballs (upgrade)
     isGroup: 0
     parentIndex: -1
-    spriteID: d90c9f761dc2cc542835484dc59a847b
+    spriteID: 3bca7c0b37899714483c10639dab3e4d
     layerID: 2
     mosaicPosition: {x: 4, y: 4}
     flatten: 0
