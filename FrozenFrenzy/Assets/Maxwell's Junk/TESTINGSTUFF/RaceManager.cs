@@ -2,12 +2,15 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
+using UnityEngine.UI;
 
 public class RaceManager : MonoBehaviour
 {
     [SerializeField] SnowballManager snowballManager;
     [SerializeField] public TMP_Text countdownText;
     [SerializeField] TMP_Text timeText;
+    [SerializeField] TMP_Text powerBallCountText;
+    [SerializeField] Button powerBoostButton;
     public bool playingGame;
     float time;
 
@@ -15,6 +18,7 @@ public class RaceManager : MonoBehaviour
     void Start()
     {
         playingGame = false;
+        powerBoostButton.interactable = false;
         time = 0.0f;
         StartCoroutine(Countdown());
     }
@@ -33,6 +37,21 @@ public class RaceManager : MonoBehaviour
         if (playingGame == true)
         {
             time += Time.deltaTime;
+
+
+            if (snowballManager.powerBallCount <= 9)
+            {
+                powerBallCountText.text = snowballManager.powerBallCount.ToString() + "/10";
+                powerBoostButton.interactable = false;
+            }
+            else
+            {
+                powerBoostButton.interactable = true;
+                powerBallCountText.text = "Boost!";
+            }
+
+
+
         }
     }
 

@@ -8,6 +8,7 @@ TagManager:
   - StopObstacle
   - SlowObstacle
   - SpeedBoost
+  - PowerBall
   layers:
   - Default
   - TransparentFX
