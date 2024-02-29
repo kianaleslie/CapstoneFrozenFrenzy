@@ -129,7 +129,7 @@ public class SnowballManager : MonoBehaviour
         canSlow = false;
         canStop = false;
         forwardMovementspeed = 1.5f;
-        yield return new WaitForSeconds(5.0f);
+        yield return new WaitForSeconds(4.0f);
         canBoost = true;
         canSlow = true;
         canStop = true;
