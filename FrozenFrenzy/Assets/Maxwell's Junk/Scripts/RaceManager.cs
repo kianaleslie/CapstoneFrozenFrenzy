@@ -45,9 +45,9 @@ public class RaceManager : MonoBehaviour
             time += Time.deltaTime;
 
 
-            if (snowballManager.powerBallCount <= 9)
+            if (snowballManager.powerBallCount <= 19)
             {
-                powerBallCountText.text = snowballManager.powerBallCount.ToString() + "/10";
+                powerBallCountText.text = snowballManager.powerBallCount.ToString() + "/20";
                 powerBoostButton.interactable = false;
             }
             else

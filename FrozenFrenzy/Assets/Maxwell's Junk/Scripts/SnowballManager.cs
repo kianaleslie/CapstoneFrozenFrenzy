@@ -106,21 +106,30 @@ public class SnowballManager : MonoBehaviour
         {
             forwardMovementspeed = 0.5f;
         }
-        canBoost = true;
+        if (powerBoosting == false)
+        {
+            canBoost = true;
+        }
     }
 
     public IEnumerator SlowSnowball()
     {
         forwardMovementspeed = 0.1f;
         yield return new WaitForSeconds(0.5f);
-        canSlow = true;
+        if (powerBoosting == false)
+        {
+            canSlow = true;
+        }
     }
 
     public IEnumerator StopSnowball()
     {
         forwardMovementspeed = 0.0f;
         yield return new WaitForSeconds(0.5f);
-        canStop = true;
+        if (powerBoosting == false)
+        {
+            canStop = true;
+        }
     }
 
     public IEnumerator PowerBoostSnowball()
