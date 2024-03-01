@@ -6,7 +6,7 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 0
-    path: Assets/Kiana's Work/MainMenu.unity
+    path: Assets/Kiana's Work/Scenes/MainMenu.unity
     guid: b6531d2234b98ea4f99c6c9605f4437e
   - enabled: 1
     path: Assets/Maxwell's Junk/Scenes/HillDemoScene.unity

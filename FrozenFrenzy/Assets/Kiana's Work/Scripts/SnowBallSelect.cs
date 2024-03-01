@@ -8,15 +8,23 @@ public class SnowBallSelect : MonoBehaviour
     public List<Sprite> snowballList;
     public Image displaySnowball;
     public LevelMenuManager levelMenuManager;
-
     int index = 0;
 
-    //kiana - this method runs through the snowballs in order of how i placed them (right button)
+    private void Start()
+    {
+        if(snowballList.Count > 0 && displaySnowball != null)
+        {
+            displaySnowball.sprite = snowballList[0];
+        }
+    }
+
+    //kiana - this method runs through the snowballs in order (right button)
     public void SwitchSnowballRightButton()
     {
         index = (index + 1) % snowballList.Count;
         displaySnowball.sprite = snowballList[index];
     }
+
     //kiana - this method runs through the snowballs in reverse (left button)
     public void SwitchSnowballLeftButton()
     {
