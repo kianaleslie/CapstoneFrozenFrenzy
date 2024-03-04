@@ -232,10 +232,10 @@ ScriptedImporter:
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 1334
-      y: 1345
-      width: 127
-      height: 49
+      x: 1298
+      y: 1296
+      width: 465
+      height: 107
     spriteID: 71eb7a30afc15c64b96217a762d340ac
     spriteBone: []
     spriteOutline: []
@@ -245,7 +245,7 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     parentGroupIndex: -1
-    uvTransform: {x: 1334, y: 1345}
+    uvTransform: {x: 1298, y: 1296}
     spritePosition: {x: 0, y: 0}
   - name: FInal_HUD_elements_final_7
     originalName: 
@@ -1773,9 +1773,9 @@ ScriptedImporter:
     rect:
       serializedVersion: 2
       x: 1582
-      y: 218
-      width: 73
-      height: 69
+      y: 208
+      width: 115
+      height: 79
     spriteID: 007ec38a944dac0489da5aa6e42692e2
     spriteBone: []
     spriteOutline: []
@@ -1785,7 +1785,7 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     parentGroupIndex: -1
-    uvTransform: {x: 1582, y: 218}
+    uvTransform: {x: 1582, y: 208}
     spritePosition: {x: 0, y: 0}
   - name: FInal_HUD_elements_final_77
     originalName: 
