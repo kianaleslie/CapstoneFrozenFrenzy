@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using Unity.VisualScripting;
 using UnityEngine;
+using UnityEngine.InputSystem;
 using UnityEngine.SceneManagement;
 
 public class SnowballManager : MonoBehaviour
@@ -52,13 +53,42 @@ public class SnowballManager : MonoBehaviour
                 }
             }
 
-            if (powerBallCount >= 10)
+            if (powerBallCount >= 20)
             {
                 canPowerBoost = true;
             }
             else
             {
                 canPowerBoost = false;
+            }
+
+
+            if (Input.GetKeyDown(KeyCode.LeftArrow))
+            {
+                leftPressed = true;
+            }
+            if (Input.GetKeyDown(KeyCode.RightArrow))
+            {
+                rightPressed = true;
+            }
+            if (Input.GetKeyUp(KeyCode.LeftArrow))
+            {
+                leftPressed = false;
+            }
+            if (Input.GetKeyUp(KeyCode.RightArrow))
+            {
+                rightPressed = false;
+            }
+            if (Input.GetKeyDown(KeyCode.Space))
+            {
+                if(powerBallCount >= 20)
+                {
+                    PowerBoostButtonPressed();
+                }
+            }
+            if (Input.GetKeyDown(KeyCode.R))
+            {
+                ResetScene();
             }
         }
     }
@@ -137,6 +167,8 @@ public class SnowballManager : MonoBehaviour
         canBoost = false;
         canSlow = false;
         canStop = false;
+        canPowerBoost = false;
+        powerBallCount = 0;
         forwardMovementspeed = 1.5f;
         yield return new WaitForSeconds(4.0f);
         canBoost = true;
