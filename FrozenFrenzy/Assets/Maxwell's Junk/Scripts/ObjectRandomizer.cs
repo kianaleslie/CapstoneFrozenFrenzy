@@ -8,12 +8,12 @@ public class ObjectRandomizer : MonoBehaviour
     [SerializeField] GameObject MiddleObject;
     [SerializeField] GameObject RightObject;
 
-    public int RandomIzer;
+    public int Randomizer;
     // Start is called before the first frame update
     void Start()
     {
-        RandomIzer = Random.Range(1, 4);
-        switch (RandomIzer)
+        Randomizer = Random.Range(1, 4);
+        switch (Randomizer)
         {
             case 1: // Keep Left Object
                 MiddleObject.SetActive(false);
