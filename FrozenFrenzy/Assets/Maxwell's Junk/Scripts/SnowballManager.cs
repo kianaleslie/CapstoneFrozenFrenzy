@@ -132,12 +132,12 @@ public class SnowballManager : MonoBehaviour
     {
         forwardMovementspeed = 1.0f;
         yield return new WaitForSeconds(1.0f);
-        if (forwardMovementspeed > 0.5f)
-        {
-            forwardMovementspeed = 0.5f;
-        }
         if (powerBoosting == false)
         {
+            if (forwardMovementspeed > 0.5f)
+            {
+                forwardMovementspeed = 0.5f;
+            }
             canBoost = true;
         }
     }
