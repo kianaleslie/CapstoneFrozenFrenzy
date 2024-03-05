@@ -3501,6 +3501,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e269909818a6f33488b266e837ea05a7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  snowballPrefabs:
+  - {fileID: 1958733963025010375, guid: 8d0b9ef7a38b1034db2f7d60fed197bf, type: 3}
+  - {fileID: 302804986092685030, guid: a3967f25b4f54e74081e08f2e95c7f8b, type: 3}
+  - {fileID: 3719826505416547960, guid: b2c22fa41d9a35e46a1694ee7819f832, type: 3}
+  - {fileID: 6602444614433302394, guid: dfb2aae7704ccb147b86adc4e4387b82, type: 3}
+  - {fileID: 4876424780452839363, guid: 2a32814b4f953bc40a04595cee4e6395, type: 3}
+  - {fileID: 3025733623262200140, guid: c4adb1413aa31ed4b9081131bfb1f13b, type: 3}
+  - {fileID: 5149978828926220226, guid: 0fb84d26103b7c04cbba70e3b729b794, type: 3}
+  playerPosition: {x: 0, y: 1.47, z: 6.29}
 --- !u!4 &1587518263
 Transform:
   m_ObjectHideFlags: 0
@@ -3537,7 +3546,7 @@ MonoBehaviour:
   - {fileID: -8971303705873452294, guid: 5c362b57896adae41b7013af72997fad, type: 3}
   - {fileID: -3601813368461776928, guid: 5c362b57896adae41b7013af72997fad, type: 3}
   displaySnowball: {fileID: 1790094134}
-  levelMenuManager: {fileID: 1587518265}
+  index: 0
 --- !u!114 &1587518265
 MonoBehaviour:
   m_ObjectHideFlags: 0
