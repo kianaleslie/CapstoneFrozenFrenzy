@@ -7,12 +7,11 @@ public class SnowBallSelect : MonoBehaviour
 {
     public List<Sprite> snowballList;
     public Image displaySnowball;
-    public LevelMenuManager levelMenuManager;
-    int index = 0;
+    public int index = 0;
 
     private void Start()
     {
-        if(snowballList.Count > 0 && displaySnowball != null)
+        if (snowballList.Count > 0 && displaySnowball != null)
         {
             displaySnowball.sprite = snowballList[0];
         }
