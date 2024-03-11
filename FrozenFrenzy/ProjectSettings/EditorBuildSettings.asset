@@ -9,6 +9,6 @@ EditorBuildSettings:
     path: Assets/JoshuaTestScenes/Scenes/FrozenFrenzMainMenuTest.unity
     guid: 052b25dd6d3374b43812b7a008551d9d
   - enabled: 1
-    path: Assets/JoshuaTestScenes/Scenes/UITestScene.unity
+    path: Assets/JoshuaTestScenes/Scenes/Leaderboard.unity
     guid: 23f58281f84375945a917fd671e89346
   m_configObjects: {}
